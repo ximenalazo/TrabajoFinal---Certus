@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo-Mascotalandia</title>
+
+    <!--Agregar los estilos de Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous">
+    <!-- Agregar estilos personalizados -->
+    <link rel="stylesheet" href="custom.css">
+
+</head>
+
+<body>
+    <!-- logo  de whatsapp-->
+    <div id="contactoWhatsapp">
+
+        <a href="https://wa.me/+51970925363"> <img src="IMG/WhatsApp.svg" alt="Contacto por Whatsapp">
+        </a>
+    </div>
+
+
+
+    <!-- Encabezado -->
+    <header>
+        <div>
+            <!--titulo 1-->
+            <h1>Mascotalandia</h1>
+            <!--titulo 2-->
+            <h2>El hogar de tu Mascota</h2>
+        </div>
+    </header>
+    <!-- Barra de menu -->
+    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Mascotalandia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="NUEVO USUARIO.html">Regístrate</a>
+                    </li>
+
+                </ul>
+
+                <div class="d-Flex">
+                    <button class="btn btn-outline-success" type="button" data-bs-toggle="modal"
+                        data-bs-target="#carritoModal">Carrito</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modal carrito -->
+    <div class="modal fade" id="carritoModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Carrito de Compras</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="carrito">
+                        <img id="carritovacio" class="img-fluid mx-auto d-block" src="carrito.compras.jpg"
+                            alt="carrito vacio">
+                        <figcaption class="text-center">Actualmente no cuenta con ningun producto en el carrito.
+                        </figcaption>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary disabled">Cotizar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- contenido principal -->
+    <main class="container txt-center bg-secondary-subtle">
+        <!-- sesiones de contenido -->
+        <section id="catalogo" class="row py-5">
+
+
+
+            <!-- Aqui agregar los productos JSON -->
+
+
+        </section>
+    </main>
+    <!-- Pie de página -->
+    <footer class="container-fluid bg-dark text-white p-5">
+        Creado por Ximena Lazo - 2023
+    </footer>
+    <!-- código javascript bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+    <!-- código javascript del proyecto -->
+    <script src="main.js"></script>
+</body>
+
+</html>

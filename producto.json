@@ -1,0 +1,97 @@
+[
+    {
+        "sku": "TP614E129HOLDF34PE",
+        "name": "Chompa roja de osito ",
+        "price": "50",
+        "offer": "-50%",
+        "image": "IMG/1.png"
+    },
+    {
+        "sku": "TP614E129HOLDF34PE",
+        "name": "chompa soffy fruit",
+        "price": "40",
+        "offer": "-50%",
+        "image": "IMG/2.png"
+
+    },
+    {
+        "sku": "TP614E129HOLDF34PE",
+        "name": "casaca dual verano/invierno",
+        "price": "40",
+        "offer": "-20",
+        "image": "IMG/3.png"
+
+    },
+    {
+        "sku": "TP614E129HOLDF34PE",
+        "name": "chompa bluetime elegante",
+        "price": "30",
+        "offer": "-10",
+        "image": "IMG/4.png"
+
+    },
+    {
+        "sku": "TP614E129HOLDF34PE",
+        "name": "polo ositos de colores",
+        "price": "40",
+        "offer": "-50%",
+        "image": "IMG/5.png"
+
+    },
+    {
+        "sku": "TP614E129HOLDF34PE",
+        "name": "chompita corder",
+        "price": "50",
+        "offer": "-20",
+        "image": "IMG/6.png"
+
+    },
+    {
+        "sku": "TP614E129HOLDF34PE",
+        "name": "casaca verde impermeable",
+        "price": "40",
+        "offer": "-30",
+        "image": "IMG/7.png"
+
+    },
+    {
+        "sku": "TP614E129HOLDF34PE",
+        "name": "disfraz stitch pequeño",
+        "price": "30",
+        "offer": "-30",
+        "image": "IMG/8.png"
+
+    },
+    {
+        "sku": "TP614E129HOLDF34PE",
+        "name": "casaca militar para perro",
+        "price": "40",
+        "offer": "-30",
+        "image": "IMG/9.png"
+
+    },
+    {
+        "sku": "TP614E129HOLDF34PE",
+        "name": "disfraz de zorro naranja",
+        "price": "20",
+        "offer": "-20",
+        "image": "IMG/10.png"
+
+    },
+    {
+        "sku": "TP614E129HOLDF34PE",
+        "name": "disfraz dragon ball z para perro",
+        "price": "20",
+        "offer": ".20",
+        "image": "IMG/11.png"
+
+    },
+    {
+        "sku": "TP614E129HOLDF34PE",
+        "name": "disfraz de vaca para perro",
+        "price": "30",
+        "offer": "-20",
+        "image": "IMG/12.png"
+
+    }
+]
